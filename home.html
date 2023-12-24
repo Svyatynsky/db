@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<script src="https://api-maps.yandex.ru/v3/?apikey=cd262b81-ee0d-4606-8572-a73a3414786d&lang=ru_RU&_v=20231224205250"></script>
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231224205250">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo logo"><img src="img/header/logo.svg" alt="картинка"></a>
+				<div class="header__menu menu">
+
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Каталог</a></li>
+							<li class="menu__item"> <a href="" class="menu__link">Акции</a></li>
+							<li class="menu__item"> <a href="" class="menu__link">Оплата и доставка</a></li>
+							<li class="menu__item"> <a href="" class="menu__link">О нас</a></li>
+							<li class="menu__item"> <a href="" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div data-da=".menu__body,767.98,last" class="header__actions actions-header">
+					<div class="actions-header__search">
+						<button class="_icon-search"></button>
+						<!-- <input type="text"> -->
+					</div>
+					<div class="actions-header__login">
+						<button class="_icon-home"></button>
+					</div>
+				</div>
+				<button type="button" class="icon-menu">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+			<div class="mainscreen" style="background-image: url(img/home/mainscreen/background.jpg);">
+				<div class="mainscreen__container">
+					<div class="mainscreen__slider swiper">
+						<div class="mainscreen__wrapper swiper-wrapper">
+							<div class="mainscreen__slide swiper-slide">
+								<h1 class="mainscreen__title">Чёрная пятница <span>Скидки до -30%</span></h1>
+								<div class="mainscreen__subtitle">С 24 по 30 апреля</div>
+								<a href="" class="mainscreen__button">Выбрать подарок</a>
+							</div>
+							<div class="mainscreen__slide swiper-slide">
+								<h1 class="mainscreen__title">Чёрная пятница <span>Скидки до -30%</span></h1>
+								<div class="mainscreen__subtitle">С 24 по 30 апреля</div>
+								<a href="" class="mainscreen__button">Выбрать подарок</a>
+							</div>
+							<div class="mainscreen__slide swiper-slide">
+								<h1 class="mainscreen__title">Чёрная пятница <span>Скидки до -30%</span></h1>
+								<div class="mainscreen__subtitle">С 24 по 30 апреля</div>
+								<a href="" class="mainscreen__button">Выбрать подарок</a>
+							</div>
+							<div class="mainscreen__slide swiper-slide">
+								<h1 class="mainscreen__title">Чёрная пятница <span>Скидки до -30%</span></h1>
+								<div class="mainscreen__subtitle">С 24 по 30 апреля</div>
+								<a href="" class="mainscreen__button">Выбрать подарок</a>
+							</div>
+							<div class="mainscreen__slide swiper-slide">
+								<h1 class="mainscreen__title">Чёрная пятница <span>Скидки до -30%</span></h1>
+								<div class="mainscreen__subtitle">С 24 по 30 апреля</div>
+								<a href="" class="mainscreen__button">Выбрать подарок</a>
+							</div>
+						</div>
+						<div class="mainscreen__pagination"></div>
+					</div>
+				</div>
+			</div>
+			<!-- <section class="catalog">
+				<div class="catalog__wrapper">
+					<div class="catalog__container">
+						<div data-spollers class="spollers">
+							<div class="spollers__item">
+								<a href="" target="_blank" class="spollers__link spollers__title">Каталог</a>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller
+									class="spollers__title spollers__title_arrow">Кому</button>
+								<div class="spollers__body">
+									<div class="checkbox">
+										<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_1" class="checkbox__label"><span
+												class="checkbox__text">Другу</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_2" class="checkbox__label"><span
+												class="checkbox__text">Коллеге</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_3" class="checkbox__label"><span
+												class="checkbox__text">Родственнику</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_4" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller
+									class="spollers__title spollers__title_arrow">Профессии</button>
+								<div class="spollers__body">
+									<div class="checkbox">
+										<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_5" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_6" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_6" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_7" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_7" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title spollers__title_arrow">Тип
+									подарка</button>
+								<div class="spollers__body">
+									<div class="checkbox">
+										<input id="c_8" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_8" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_9" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_9" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_10" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_10" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_11" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_11" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller
+									class="spollers__title spollers__title_arrow">Повод</button>
+								<div class="spollers__body">
+									<div class="checkbox">
+										<input id="c_12" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_12" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_13" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_13" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_14" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_14" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+									<div class="checkbox">
+										<input id="c_15" data-error="Ошибка" class="checkbox__input" type="checkbox"
+											value="1" name="form[]">
+										<label for="c_15" class="checkbox__label"><span
+												class="checkbox__text">Текст</span></label>
+									</div>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<a href="" target="_blank" class="spollers__link spollers__title">Акции</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+
+			<section class="novelties">
+				<div class="novelties__container">
+					<div class="novelties__title title">Новинки</div>
+					<span></span>
+					<div class="novelties__cards">
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+						<div class="novelties__card product-card">
+							<a href="#" class="product-card__image">
+								<picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+								<div class="product-card__actions">
+									<button type="button" class="product-card__favorite _icon-favorite"></button>
+									<button type="button" class="product-card__compare _icon-compare"></button>
+								</div>
+							</a>
+							<h3 class="product-card__title">Нож - брелок <span>(дамаск)</span></h3>
+							<div class="product-card__price">1 000 ₽</div>
+						</div>
+
+					</div>
+					<a href="#" class="novelties__all button">смотреть все</a>
+				</div>
+			</section>
+			<section class="form-feedback">
+				<div class="form-feedback__container">
+					<div class="form-feedback__info">
+						<div class="form-feedback__title">Наша команда всегда на связи!</div>
+						<div class="form-feedback__text">Мы перезвоним вам в удобное время
+							и поможем выбрать идеальный подарок</div>
+						<div class="form-feedback__text">Или позвоните на один из номеров
+							нашей горячей линии</div>
+						<a href="tel:+74957656898" class="form-feedback__phone">+7 (495) 765-68-98</a>
+						<a href="tel:+74957656898" class="form-feedback__phone">+7 (495) 765-68-98</a>
+					</div>
+					<form action="" class="form-feedback__form">
+						<div class="form-feedback__input">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Как к вам обращаться?" class="input">
+						</div>
+						<div class="form-feedback__input">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Телефон" class="input" id="phone-mask">
+						</div>
+						<div class="form-feedback__time">
+							<div class="form-feedback__input">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Дата" class="input">
+								<span class="_icon-date"></span>
+							</div>
+							<div class="form-feedback__input">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Время" class="input">
+								<span class="_icon-clock"></span>
+							</div>
+						</div>
+						<button class="form-feedback__button">Заказать звонок</button>
+					</form>
+				</div>
+			</section>
+			<section class="category">
+				<div class="category__container">
+					<div class="category__title title">Категории</div>
+					<div class="category__items">
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Книги</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-1.webp" type="image/webp"><img src="img/home/category/category-1.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Декор для дома</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-2.webp" type="image/webp"><img src="img/home/category/category-2.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Аксессуары</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-3.webp" type="image/webp"><img src="img/home/category/category-3.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Сувенирное оружие</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-4.webp" type="image/webp"><img src="img/home/category/category-4.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Для пикника</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-5.webp" type="image/webp"><img src="img/home/category/category-5.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Элитная посуда</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-6.webp" type="image/webp"><img src="img/home/category/category-6.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Трости</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-7.webp" type="image/webp"><img src="img/home/category/category-7.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Ножи</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-8.webp" type="image/webp"><img src="img/home/category/category-8.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Настольные игры</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-9.webp" type="image/webp"><img src="img/home/category/category-9.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Религиозные</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-10.webp" type="image/webp"><img src="img/home/category/category-10.png" alt="картинка"></picture></div>
+						</a>
+						<a href="#" class="category__item item-category">
+							<div class="item-category__name">Наградная атрибутика</div>
+							<div class="item-category__image"><picture><source srcset="img/home/category/category-11.webp" type="image/webp"><img src="img/home/category/category-11.png" alt="картинка"></picture></div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="gallery">
+				<div class="gallery__container">
+					<div class="gallery__title title">Сделайте подарок особенным!</div>
+					<p class="gallery__subtitle">
+						Наши профессионалы могут нанести Ваши тёплые пожелания или именной герб на любые поверхности.
+						Подарите море эмоций тем, кого любите. А трудную работу — доверьте нам.
+					</p>
+				</div>
+				<div data-gallery class="gallery__content">
+					<a href="img/home/gallery/gallery-1.png" class="gallery__item"><picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt=""></picture></a>
+					<a href="img/home/gallery/gallery-2.png" class="gallery__item"><picture><source srcset="img/home/gallery/gallery-2.webp" type="image/webp"><img src="img/home/gallery/gallery-2.png" alt=""></picture></a>
+					<a href="img/home/gallery/gallery-3.png" class="gallery__item"><picture><source srcset="img/home/gallery/gallery-3.webp" type="image/webp"><img src="img/home/gallery/gallery-3.png" alt=""></picture></a>
+					<a href="img/home/gallery/gallery-4.png" class="gallery__item"><picture><source srcset="img/home/gallery/gallery-4.webp" type="image/webp"><img src="img/home/gallery/gallery-4.png" alt=""></picture></a>
+				</div>
+				<div data-gallery class="gallery__content">
+					<a href="img/home/gallery/gallery-5.png" class="gallery__item"><picture><source srcset="img/home/gallery/gallery-5.webp" type="image/webp"><img src="img/home/gallery/gallery-5.png" alt=""></picture></a>
+					<a href="img/home/gallery/gallery-6.png" class="gallery__item"><picture><source srcset="img/home/gallery/gallery-6.webp" type="image/webp"><img src="img/home/gallery/gallery-6.png" alt=""></picture></a>
+					<a href="img/home/gallery/gallery-7.png" class="gallery__item"><picture><source srcset="img/home/gallery/gallery-7.webp" type="image/webp"><img src="img/home/gallery/gallery-7.png" alt=""></picture></a>
+				</div>
+				<a href="" class="gallery__button button">Открыть фотогалерею</a>
+			</section>
+			<section class="articles">
+				<div class="articles__container">
+					<div class="articles__title title">Статьи</div>
+					<div class="articles__rows">
+						<article class="articles__column column-article">
+							<a href="#" class="column-article__image"><picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+							</a>
+							<div class="column-article__info">
+
+								<h3 class="column-article__title">заготовка под Текст для заголовка. </h3>
+								<p class="column-article__text">
+									Очень интересный текст статьи.
+									Рассказывает про интересные
+									вещи и выгодные предложения.
+									Это краткое описание поможет
+									вникнуть в суть происходящего
+									и понять стоит ли вообще читать
+									это всё или лучше поплевать в
+									потолок лишние пару минут. В
+									любом случае текст закончится
+									в стиле интернет объявлений
+									“для этого нужно всего лишь”...
+								</p>
+							</div>
+						</article>
+						<article class="articles__column column-article">
+							<a href="#" class="column-article__image"><picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+							</a>
+							<div class="column-article__info">
+
+								<h3 class="column-article__title">заготовка под Текст для заголовка. </h3>
+								<p class="column-article__text">
+									Очень интересный текст статьи.
+									Рассказывает про интересные
+									вещи и выгодные предложения.
+									Это краткое описание поможет
+									вникнуть в суть происходящего
+									и понять стоит ли вообще читать
+									это всё или лучше поплевать в
+									потолок лишние пару минут. В
+									любом случае текст закончится
+									в стиле интернет объявлений
+									“для этого нужно всего лишь”...
+								</p>
+							</div>
+						</article>
+						<article class="articles__column column-article">
+							<a href="#" class="column-article__image"><picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+							</a>
+							<div class="column-article__info">
+
+								<h3 class="column-article__title">заготовка под Текст для заголовка. </h3>
+								<p class="column-article__text">
+									Очень интересный текст статьи.
+									Рассказывает про интересные
+									вещи и выгодные предложения.
+									Это краткое описание поможет
+									вникнуть в суть происходящего
+									и понять стоит ли вообще читать
+									это всё или лучше поплевать в
+									потолок лишние пару минут. В
+									любом случае текст закончится
+									в стиле интернет объявлений
+									“для этого нужно всего лишь”...
+								</p>
+							</div>
+						</article>
+						<article class="articles__column column-article">
+							<a href="#" class="column-article__image"><picture><source srcset="img/home/gallery/gallery-1.webp" type="image/webp"><img src="img/home/gallery/gallery-1.png" alt="картинка"></picture>
+							</a>
+							<div class="column-article__info">
+
+								<h3 class="column-article__title">заготовка под Текст для заголовка. </h3>
+								<p class="column-article__text">
+									Очень интересный текст статьи.
+									Рассказывает про интересные
+									вещи и выгодные предложения.
+									Это краткое описание поможет
+									вникнуть в суть происходящего
+									и понять стоит ли вообще читать
+									это всё или лучше поплевать в
+									потолок лишние пару минут. В
+									любом случае текст закончится
+									в стиле интернет объявлений
+									“для этого нужно всего лишь”...
+								</p>
+							</div>
+						</article>
+
+					</div>
+					<div class="articles__subscribe subscribe-footer">
+						<p class="subscribe-footer__text">
+							Подпишитесь на наш паблик на Яндекс.Дзен чтобы читать больше полезных статей.
+						</p>
+						<a href="#" class="subscribe-footer__button">
+							<span class="subscribe-footer__span-default">подписаться на</span>
+							<span class="subscribe-footer__span-mobile">подписаться</span>
+							<picture><source srcset="img/common/yandex.webp" type="image/webp"><img src="img/common/yandex.png" alt="картинка"></picture>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__wrapper">
+					<div class="footer__info info-footer">
+						<div class="info-footer__title">Наши контакты</div>
+						<div class="info-footer__phones">
+							<a href="tel:+74957656898" class="info-footer__phone">+7 (495) 765-68-98</a>
+							<a href="tel:+74957656898" class="info-footer__phone">+7 (495) 765-68-98</a>
+						</div>
+						<a href="mailto:info@dorogo-bogato.ru" class="info-footer__email">info@dorogo-bogato.ru</a>
+						<div class="info-footer__address">Москва, улица Красного Маяка, 16</div>
+						<div class="info-footer__socials socials-footer">
+							<a href="#" class="socials-footer__social"><picture><source srcset="img/home/socials/vk.webp" type="image/webp"><img src="img/home/socials/vk.jpg" alt="картинка"></picture></a>
+							<a href="#" class="socials-footer__social"><picture><source srcset="img/home/socials/yt.webp" type="image/webp"><img src="img/home/socials/yt.jpg" alt="картинка"></picture></a>
+							<a href="#" class="socials-footer__social"><picture><source srcset="img/home/socials/ok.webp" type="image/webp"><img src="img/home/socials/ok.jpg" alt="картинка"></picture></a>
+							<a href="#" class="socials-footer__social"><picture><source srcset="img/home/socials/inst.webp" type="image/webp"><img src="img/home/socials/inst.jpg" alt="картинка"></picture></a>
+						</div>
+					</div>
+					<div class="footer__map">
+						<div id="map">
+							<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Acf414b431dc7f10c14e66b77d5d77cc4656f19a42dc1b06e7d06f2db29c946f8&amp;source=constructor" width="658" height="354" frameborder="0"></iframe>
+						</div>
+						<!-- <div id="map" style="width: 600px; height: 400px"></div> -->
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20231224205250"></script>
+</body>
+
+</html>
